@@ -1,8 +1,7 @@
 ### Vending-machine
 #### A test case for Renue company.
-
+### Go to app -> [Vending machine](https://vending-machine-rosy.vercel.app/)
 The app simulates the operation of a vending machine.
-
 The machine accepts money in denominations of 50, 100, 500 and 1,000 roubles. When money is added to the machine, the user's money is reduced by exactly the same amount.
 The user is able to buy an item if the item is available for purchase and the user has enough money.
 After the purchase, the item is added to the user's shopping cart.
@@ -14,4 +13,3 @@ Installation:
  3. ```$make build - build the project```
  4. ```$make clear - clean the build```
  5. ```$make lint - start the linter```
-
