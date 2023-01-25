@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  padding: 14px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.banknotes__title {
+  width: 100%;
+}
+
+.App {
+  padding: 0 20px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.main {
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.container-store {
+  max-width: 340px;
+  min-height: 75vh;
+  background-color: #4e1f6a;
+}
+
+.store {
+  justify-content: space-between;
+  background-color: #ffde9b;
+  padding: 10px;
+  gap: 1px;
+  width: 90%;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.output-box {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  height: 3rem;
+  background-color: #c0c0c0;
+  border-radius: 10px 10px 0 0;
+}
+
+.output-box::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 10%;
+  width: 80%;
+  height: 80%;
+  background-color: #242424;
+  border-radius: 10px 10px 0 0;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  padding: 5px;
+}
+
+.item__info {
+  background-color: #242424;
+  color: #fff;
+  padding: 2px;
+  border-radius: 3px;
+}
+
+.item__number {
+  font-size: 0.8rem;
+}
+
+.product-img {
+  height: 100px;
+  transition: all 0.2s ease-out;
+}
+
+.product-img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.container-controller {
+  max-width: 200px;
+  background-color: #4e1f6a;
+  border-left: 1px solid #ccc;
+  color: #fff;
+}
+
+.controller {
+  padding: 10px 10px;
+}
+
+.display {
+  background-color: #242424;
+  border-radius: 5px;
+  padding: 3px 0;
+}
+
+.display__count {
+  font-size: 3rem;
+}
+
+.banknotes {
+  padding: 10px 0;
+}
+
+.controller p {
+  padding: 5px 0;
+}
+
+.banknotes__item {
+  width: 50%;
+  padding: 5px;
+}
+
+.choice__buttons {
+  gap: 7px;
+}
+
+.wallet {
+  max-width: 200px;
+}
+
+.container-user {
+  padding: 0 60px;
+}
+
+.user__wallet {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-image: url("../public/assets/wallet.png");
+  background-size: cover;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.user__wallet > span {
+  position: absolute;
+  top: 52%;
+  right: 30%;
+}
+
+.backpack {
+  padding: 10px;
+  text-align: left;
+}
+
+.backpack__title {
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.backpack__items {
+  gap: 2px;
+}
+
+.container-payback {
+  padding: 20px 0;
+}
+
+.payback__buttons {
+  justify-content: center;
+}
+
+.payback__btn {
+  padding: 5px;
+  width: 50%;
+}
